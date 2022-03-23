@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: square ;
+    color: #3C93F0;
+    
+}
+
+
+
+select{
+    cursor: pointer;
+}
+
+
+/*======================================================================================================
+                                                    Header
+=======================================================================================================*/
+
+.header{
+    background:#FFFFFF;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+}
+ 
+.nav__ifo{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    
+}
+
+
+
+
+.info__nav{
+    display: flex;
+    margin-left: 90px;
+    align-items: center;
+}
+
+.nav__number{
+    flex-direction: column;
+}
+
+.logo-img{
+    margin-right: 39px;
+}
+
+.nav-link{
+margin-right: 16px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+align-items: center;
+text-align: center;
+color: #3E3E3E;
+
+}
+
+.nav-link--burger_logo{
+    
+    padding-right: 10px;
+}
+
+.nav-form{
+    margin-left: 0;
+}
+
+.nav__number{
+ margin-left: 10px;
+ font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 35px;
+align-items: center;
+color: #3E3E3E;
+}
+
+.nav__number_color__nav{
+    color:#efc333 ;
+    font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 35px;
+align-items: center;
+}
+
+.nav-select{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 204px;
+    outline: none;
+    border: none;
+    appearance: none;
+    background: url(../img/icon-city.svg)  no-repeat left;
+    background-position: left 5px top 50%, 0 0;
+
+}
+
+
+/*======================================================================================================
+                                                    Header end
+=======================================================================================================*/
+
+/*======================================================================================================
+                                                    block_info
+=======================================================================================================*/
+
+.block{
+    display: flex;
+}
+
+.blok__info{
+    background: #FED036;
+}
+
+.block__title{
+    margin-top: 154px;
+}
+
+.sup__title{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+color: #3E3E3E;
+}
+
+
+.sub__title{
+    margin-top: 25px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 76px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #FFFFFF; 
+}
+
+
+.promo-text{
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3E3E3E;
+
+}
+
+.promo__img{
+    padding-right: 10px;
+}
+
+.form__sect{
+    margin-top: 30px;
+    
+}
+
+.input__line{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    outline: none;
+    border: none;
+    max-width: 331px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+::placeholder{
+ padding-left: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #3E3E3E;
+}
+
+.button__form{
+    background: #3C93F0;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-radius: 3px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*======================================================================================================
+                                                    block_info end
+=======================================================================================================*/
+
+/*======================================================================================================
+                                                    block__slider
+=======================================================================================================*/
+
+.info__slider{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.arrow__down{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title__slider{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 59px;
+text-align: center;
+color: #3E3E3E;
+margin-bottom: 20px;
+}
+
+.text__slider{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #3E3E3E;
+}
+
+
+.slider{
+display: flex;
+justify-content: space-between;
+}
+
+.slider__col{
+    border-radius: 3px;
+background: #EDF3F6;
+max-width: 400px;
+width: 100%;
+
+}
+
+.block__slide__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-slider{
+   display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.block__slide__info{
+    margin-top: 34px;
+}
+
+
+
+.style_list{
+    padding-bottom: 7px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #3E3E3E;
+ margin-left: 47px;
+}
+
+.wash__car{
+    margin-right: 18px;
+}
+
+.list__slide{
+    margin-bottom: 40px;
+}
+
+.btn__next{
+ margin-left: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #3C93F0;
+}
