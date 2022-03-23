@@ -1,2 +1,0 @@
-# Mr.Bit
-# Mr.bat
